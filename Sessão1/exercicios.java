@@ -2,7 +2,7 @@ package Sessao1;
 
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class exercicios {
     public static void main(String[] args) {
         int idade = 20;
         String nome = "João";

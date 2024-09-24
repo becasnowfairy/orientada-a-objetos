@@ -2,7 +2,7 @@ package Sessao2.ParteI;
 
 import java.util.Scanner;
 
-public class exercicios {
+public class exercicios1 {
 
     public static void checkTime() {
         /*

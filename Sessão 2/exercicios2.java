@@ -2,7 +2,7 @@ package Sessao2.ParteII;
 
 import java.util.Scanner;
 
-public class exercicios {
+public class exercicios2 {
     public static void sumEven(int n) {
         /*
          * Escreva um programa que leia um número N, calcule e mostre a soma de todos os
