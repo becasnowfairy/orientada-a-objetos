@@ -16,13 +16,14 @@ public class exercicios {
         System.out.println("Sexo: " + sexo);
         System.out.println("A trabalhar? " + estaTrabalhando);
 
-        Scanner k = new Scanner(System.in);
-        System.out.println("Insira um Nome:");
-        String name2 = k.nextLine();
-        System.out.println("Insira uma Idade:");
-        int idade2 = k.nextInt();
-
-        k.close();
+        String name2;
+        int idade2;
+        try (Scanner k = new Scanner(System.in)) {
+            System.out.println("Insira um Nome:");
+            name2 = k.nextLine();
+            System.out.println("Insira uma Idade:");
+            idade2 = k.nextInt();
+        }
 
         System.out.println("Chamas te " + name2 + " e tens " + idade2 + " anos.");
     }
